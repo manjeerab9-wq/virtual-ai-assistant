@@ -84,3 +84,9 @@ The tests cover name capture, date/time formatting, arithmetic, division-by-zero
 ## Limitations and future enhancements
 
 This intentionally beginner-level application has no trained model, external API, database, GUI, persistent storage, or speech recognition. Future projects could add persistence, a graphical interface, a real dataset, or a trained classifier while keeping the same input-process-response architecture.
+
+## Project Demo
+
+Here is a screenshot of the Virtual AI Assistant running successfully:
+
+![Virtual AI Assistant Demo](screenshots/assistant-demo.png)
