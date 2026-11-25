@@ -22,11 +22,13 @@ A beginner-friendly, offline, rule-based virtual assistant built with Python's s
 
 ## Run the assistant
 
-From this folder, run:
+Open a terminal in this project folder and run:
 
 ```bash
-python3 main.py
+python main.py
 ```
+
+On systems where `python` is not the command, try `py main.py` on Windows or `python3 main.py` on macOS/Linux.
 
 At startup, enter your name. Then type `help` to see the commands.
 
@@ -69,15 +71,17 @@ virtual-ai-assistant/
 
 The assistant is a **rule-based AI system**: it normalizes user input and uses explicit keyword and pattern rules to select a response function. The `recommend_activity()` function is a small decision-tree-style demonstration based on the current hour.
 
-No machine-learning model is trained. The project uses plain Python analogies to introduce ML ideas such as classification, feature-based decisions, and recommendation logic. The `perceptron()` function demonstrates a basic deep-learning building block: inputs are multiplied by fixed weights, a bias is added, and a step activation returns a binary output.
+No machine-learning model is trained. The project uses plain Python analogies to introduce ML ideas such as classification, feature-based decisions, and recommendation logic. The `perceptron()` function demonstrates a basic neural-network building block: inputs are multiplied by fixed weights, a bias is added, and a step activation returns a binary output.
 
 ## Testing
 
 Run the automated checks with:
 
 ```bash
-python3 -m unittest -v
+python -m unittest -v
 ```
+
+If needed, use `py -m unittest -v` on Windows or `python3 -m unittest -v` on macOS/Linux.
 
 The tests cover name capture, date/time formatting, arithmetic, division-by-zero handling, content selection, the guessing game, rule-based recommendations, the perceptron, routing, fallback behavior, and graceful exit.
 
@@ -87,6 +91,6 @@ This intentionally beginner-level application has no trained model, external API
 
 ## Project Demo
 
-Here is a screenshot of the Virtual AI Assistant running successfully:
+Add a screenshot at `screenshots/assistant-demo.png` to display it here:
 
 ![Virtual AI Assistant Demo](screenshots/assistant-demo.png)
