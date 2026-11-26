@@ -19,7 +19,7 @@ def play_guessing_game(input_func=input, output_func=print, rng=random):
         try:
             guess = int(raw_guess)
         except ValueError:
-            output_func("Please enter a whole number.")
+            output_func("Please enter a whole number. This attempt counts.")
             continue
         if guess == secret:
             output_func(f"Correct! You got it in {attempt} attempt(s).")
