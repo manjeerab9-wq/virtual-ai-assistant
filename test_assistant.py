@@ -9,6 +9,7 @@ import calculator
 import content
 import datetime_utils
 import game
+import greetings
 from main import respond
 
 
