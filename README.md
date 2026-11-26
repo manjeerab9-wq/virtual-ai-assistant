@@ -91,6 +91,6 @@ This intentionally beginner-level application has no trained model, external API
 
 ## Project Demo
 
-Add a screenshot at `screenshots/assistant-demo.png` to display it here:
+Here is a screenshot of the Virtual AI Assistant running successfully:
 
 ![Virtual AI Assistant Demo](screenshots/assistant-demo.png)
