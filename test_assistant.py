@@ -66,6 +66,14 @@ class AssistantTests(unittest.TestCase):
         output = []
         self.assertFalse(respond("exit", "Alex", output_func=output.append))
         self.assertIn("Goodbye, Alex", output[-1])
+   
+    def test_blank_name_uses_friendly_fallback(self):
+        output = []
+        name = greetings.get_user_name(
+            input_func=lambda prompt="": "   ",
+            output_func=output.append
+        )
+        self.assertEqual(name, "friend")
 
 
 if __name__ == "__main__":
