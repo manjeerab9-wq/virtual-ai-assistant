@@ -56,6 +56,8 @@ For the perceptron demo, enter three numbers such as `1 0 1`. The program comput
 ```text
 virtual-ai-assistant/
 ├── main.py              # Entry point, input loop, and rule-based router
+├── screenshots/
+│   └── assistant-demo.png
 ├── greetings.py         # Name capture and greeting
 ├── datetime_utils.py    # Date and time helpers
 ├── calculator.py        # Safe arithmetic parsing and calculation
