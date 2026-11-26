@@ -75,6 +75,19 @@ The assistant is a **rule-based AI system**: it normalizes user input and uses e
 
 No machine-learning model is trained. The project uses plain Python analogies to introduce ML ideas such as classification, feature-based decisions, and recommendation logic. The `perceptron()` function demonstrates a basic neural-network building block: inputs are multiplied by fixed weights, a bias is added, and a step activation returns a binary output.
 
+### Concept-to-Code Mapping
+
+| Concept | Implementation | Description |
+|---|---|---|
+| Rule-based AI | `main.py` | Uses conditions and rules to understand commands. |
+| Pattern matching | `main.py` | Uses `re.findall()` to detect mathematical expressions. |
+| Natural language processing (basic) | `main.py` | Converts user input to lowercase and identifies keywords. |
+| Arithmetic processing | `calculator.py` | Parses and calculates mathematical expressions. |
+| Recommendation system | `ai_concepts.py` | Suggests activities based on simple rules. |
+| Perceptron | `ai_concepts.py` | Demonstrates inputs, weights, bias, and activation. |
+| Exception handling | `calculator.py`, `game.py` | Handles invalid input and calculation errors. |
+| Software testing | `test_assistant.py` | Uses unit tests to verify application features. |
+
 ## Testing
 
 Run the automated checks with:
